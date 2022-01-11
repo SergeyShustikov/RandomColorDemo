@@ -40,7 +40,10 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Center(
             child: Text(
               "Hey there",
-              style: Theme.of(context).textTheme.bodyText1?.copyWith(color: _currentColor),
+              style: Theme.of(context)
+                  .textTheme
+                  .bodyText1
+                  ?.copyWith(color: _currentColor),
             ),
           ),
         ),
